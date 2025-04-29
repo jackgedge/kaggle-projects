@@ -1,8 +1,11 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.analysis.extraPaths": ["."],
+        "jupyter.notebookFileRoot": "${workspaceFolder}"
+    }
 }
